@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>TP SPA HTML/CSS</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <!-- entete de page  -->
+    <header id="navbar">
+      <div id="image">
+        <img src="./logo.png" style="width:30px" alt="Logo">
+      </div>
+      <nav>
+        <ul >
+          <li ><a href="#">Accueil</a></li>
+          <li ><a href="#presentation">Présentation</a></li>
+          <li ><a href="#services">Services</a></li>
+          <li ><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+        <!-- corps de page -->
+    <main>
+      <section id="presentation">
+        <h1>Bienvenue sur ce cite</h1>
+      </section>
+
+      <section >
+        <h2>Qui somme Nous</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tempora praesentium, voluptatem provident pariatur impedit ipsam hic. Laudantium, in dolorem?</p>
+      </section>
+      <section id="services">
+        <h2>Nos prestations</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est eum perspiciatis ullam dolorum, deserunt officia tempore consequuntur doloremque recusandae dolore eaque odio eius eos eligendi fugiat eveniet praesentium expedita!</p>
+      </section>
+
+      <section id="contact">
+        <h2>Nous contacter</h2>
+
+        <form >
+        <fieldset>
+            <legend>Informations</legend>
+            <div>Civilités:
+              <label for="sexe">Monsieur:</label>
+              <input type="radio"  name="sexe" id="sexe">
+              
+              <label for="sexe">Madame:</label>
+              <input type="radio"  name="sexe"id="sexe">
+              
+              
+            </div>
+            <div>
+              <label for="nom">Nom:</label>
+              <input id="nom" name="nom" type="text" placeholder="Votre nom">
+              
+              <label for="prenom">Prénom:</label>
+              <input id="prenom" name="fn" type="text" placeholder="Votre prénom">
+            </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Message</legend>
+          <div>
+            <label for="sujetm">Sujet du Message:</label>
+            <input id="sujetm" name="sujetm" type="text">
+          </div>
+          <div>
+            <label for="message">Votre message:</label>
+            <textarea id="message" name="message" ></textarea>
+          </div>
+        </fieldset>
+
+        <button type="valider">Envoyer</button>
+        <button type="reset">Annuler</button>
+        </form>
+      </section>
+    </main>
+    <!-- bas de page -->
+
+    <footer>
+      <p>&copy; DWAPS - Michael Cornillon - 2021</p>
+    </footer>
+    
+  </body>
+</html>
